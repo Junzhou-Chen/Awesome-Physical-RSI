@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from sync_manuscript import active_sources, citation_contexts, read_bib
-from build_readme import validate, valid_url
+from build_readme import validate, valid_url, venue
 
 
 class SourceReaderTests(unittest.TestCase):
@@ -50,6 +50,10 @@ title="Quoted title", year=2025, booktitle={Proceedings}}
 
 
 class CatalogValidationTests(unittest.TestCase):
+    def test_robotics_letters_is_not_the_icra_conference(self):
+        self.assertEqual(venue({"venue_raw": "IEEE Robotics and Automation Letters"}), "RA-L")
+        self.assertEqual(venue({"venue_raw": "2024 IEEE International Conference on Robotics and Automation (ICRA)"}), "ICRA")
+
     def test_resource_requires_association_evidence(self):
         paper = {"id": "one", "title": "Title", "year": "2026", "focus": "Specific mechanism",
                  "category": "policy_updates", "in_manuscript": True,

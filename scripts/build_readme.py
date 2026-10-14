@@ -70,7 +70,10 @@ def venue(p):
                ("learning representations", "ICLR"), ("robot learning", "CoRL"),
                ("international conference on machine learning", "ICML"),
                ("26th annual international conference on machine learning", "ICML"),
+               ("robotics and automation letters", "RA-L"),
                ("robotics and automation", "ICRA"), ("intelligent robots and systems", "IROS"),
+               ("computer vision and pattern recognition", "CVPR"),
+               ("international conference on computer vision", "ICCV"),
                ("robotics: science and systems", "RSS"), ("robotics science and systems", "RSS"),
                ("transactions on robotics", "T-RO"), ("international journal of robotics research", "IJRR"),
                ("transactions on machine learning research", "TMLR")]
