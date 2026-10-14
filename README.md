@@ -12,7 +12,7 @@ A companion reading list on how embodied systems acquire experience, construct f
 
 ## Updates
 
-- **2026-10-13** — Catalog: **214 / 216** manuscript citations indexed (**2 editorial exclusions**), **214** paper links, and **178** papers with linked resources (**149** with code).
+- **2026-10-13** — Catalog: **214 / 214** manuscript citations indexed, **214** paper links, and **178** papers with linked resources (**149** with code).
 
 ## Contents
 

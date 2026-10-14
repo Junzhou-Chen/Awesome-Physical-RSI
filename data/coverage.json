@@ -1,13 +1,10 @@
 {
   "updated": "2026-10-13",
-  "source_commit": "6aaac53fe369b02781faa2ad504cc356a23710c0",
+  "source_commit": "c84d60055c2be7861b89917c1c0d3a2fb20b2cf5",
   "papers": 214,
   "manuscript_citations": 214,
-  "source_manuscript_citations": 216,
-  "excluded_citation_keys": [
-    "chen2024advanced",
-    "chen2026fast"
-  ],
+  "source_manuscript_citations": 214,
+  "excluded_citation_keys": [],
   "paper_links": 214,
   "papers_with_resources": 178,
   "papers_with_code": 149,

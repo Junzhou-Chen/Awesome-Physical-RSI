@@ -1,11 +1,11 @@
 {
   "repository": "https://github.com/Junzhou-Chen/Phy_RSI_Survey",
-  "commit": "6aaac53fe369b02781faa2ad504cc356a23710c0",
+  "commit": "c84d60055c2be7861b89917c1c0d3a2fb20b2cf5",
   "working_tree_dirty": false,
   "main_file": "neurips_2026.tex",
-  "cited_count": 216,
-  "bibliography_count": 216,
-  "bib_sha256": "c2d42e6b0bdfff2a3b966ad68d2c653d61cec95bddeb787b1127f23762665ce7",
+  "cited_count": 214,
+  "bibliography_count": 214,
+  "bib_sha256": "631379c0d141034063b001bed2c44f9203c9671147188a3b2b406a9f6498328f",
   "active_files": [
     {
       "path": "neurips_2026.tex",
@@ -21,7 +21,7 @@
     },
     {
       "path": "Content/RSI_4_PAI.tex",
-      "sha256": "688a855a711e1809cccf9f519a561e2c5376dbb53b3ab582cccec679445b29bb"
+      "sha256": "cf774ae92bc854f6357e62fd64222d2e0ff5f68bb29bdeafcaed357b0419ace8"
     },
     {
       "path": "Content/Build_Phy_RSI.tex",
@@ -33,7 +33,7 @@
     },
     {
       "path": "Content/Research_Phy_RSI.tex",
-      "sha256": "b355dd0881d6370a1eacf226969806573ef1668992141f792a23ba04f0c32097"
+      "sha256": "38e75a1f7250e52c2488cd891dbde5513a85e1be0b9e620fab5ac0bc4c491294"
     },
     {
       "path": "Content/Opportunity.tex",
@@ -48,9 +48,6 @@
       "sha256": "487b0dedec343634a72c1d746dcc72ddc76c60bf4da2d3f0a967418ff8d07bfd"
     }
   ],
-  "excluded_citation_keys": [
-    "chen2024advanced",
-    "chen2026fast"
-  ],
+  "excluded_citation_keys": [],
   "catalog_cited_count": 214
 }

@@ -132,7 +132,6 @@ def render(papers, categories, snapshot):
              "**Physical self-improvement (SI)** retains improvements to an embodied system. **Recursive self-improvement (RSI)** uses earlier improvement outcomes to revise the process that produces later gains. The survey proposes evaluating a revised process against its saved predecessor through subsequent learning under matched conditions and resources.", "",
              "## Updates", "",
              f"- **{DATE}** — Catalog: **{s['manuscript_citations']} / {snapshot['cited_count']}** manuscript citations indexed"
-             + (f" (**{len(s['excluded_citation_keys'])} editorial exclusions**)" if s['excluded_citation_keys'] else "")
              + f", **{s['paper_links']}** paper links, and **{s['papers_with_resources']}** papers with linked resources (**{s['papers_with_code']}** with code).", "",
              "## Contents", "",
              "- [How to read the catalog](#how-to-read-the-catalog)", "- [Paper catalog](#paper-catalog)"]
