@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Physical improvement and revision of the learning process</title>
+  <desc id="desc">A physical improvement loop connects practice, feedback, persistent updates, and deployment. Improvement history informs a revised process, evaluated on later learning.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#64748b"/></marker>
+    <marker id="bluearrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="1200" height="370" rx="20" fill="#f8fafc"/>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#0f172a">
+    <text x="40" y="47" font-size="25" font-weight="700">From physical practice to better ways of learning</text>
+    <text x="40" y="79" font-size="17" fill="#64748b">Experience · feedback · retained change · subsequent learning</text>
+    <g font-size="21" font-weight="700">
+      <rect x="40" y="119" width="246" height="101" rx="12" fill="#e0f2fe" stroke="#38bdf8"/>
+      <text x="64" y="153">Acquire experience</text>
+      <rect x="330" y="119" width="246" height="101" rx="12" fill="#ccfbf1" stroke="#2dd4bf"/>
+      <text x="354" y="153">Construct feedback</text>
+      <rect x="620" y="119" width="246" height="101" rx="12" fill="#ede9fe" stroke="#a78bfa"/>
+      <text x="644" y="153">Retain an update</text>
+      <rect x="910" y="119" width="246" height="101" rx="12" fill="#fef3c7" stroke="#fbbf24"/>
+      <text x="934" y="153">Deploy and learn</text>
+    </g>
+    <g font-size="16" fill="#475569">
+      <text x="64" y="184">Practice, recovery, data,</text><text x="64" y="204">simulation, and imagination</text>
+      <text x="354" y="184">Rewards, goals, progress,</text><text x="354" y="204">verification, and diagnosis</text>
+      <text x="644" y="184">Policies, memory, predictive</text><text x="644" y="204">models, and learning code</text>
+      <text x="934" y="184">Capability, retention, safety,</text><text x="934" y="204">and resource accounting</text>
+    </g>
+    <g fill="none" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M286 169H324"/><path d="M576 169H614"/><path d="M866 169H904"/>
+      <path d="M1033 220V245H163V224"/>
+    </g>
+    <rect x="40" y="278" width="1116" height="75" rx="12" fill="#eff6ff"/>
+    <path d="M40 278H1156" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="40" y="311" font-size="19" font-weight="700" fill="#2563eb">Toward RSI</text>
+    <text x="181" y="311" font-size="18">Improvement history</text>
+    <path d="M369 306H408" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bluearrow)"/>
+    <text x="425" y="311" font-size="18">Revise the improvement process</text>
+    <path d="M711 306H750" fill="none" stroke="#2563eb" stroke-width="2.5" marker-end="url(#bluearrow)"/>
+    <text x="768" y="311" font-size="18">Evaluate later learning</text>
+    <text x="181" y="342" font-size="16" fill="#64748b">Compare revised and saved predecessor processes under matched conditions and resources.</text>
+  </g>
+</svg>

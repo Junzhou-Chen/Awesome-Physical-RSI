@@ -1,0 +1,24 @@
+name: Add or correct a paper resource
+description: Suggest a paper, official resource, or metadata correction
+title: "[Catalog] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Original paper URL
+      description: Publisher, arXiv, or author-hosted paper
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested addition or correction
+      description: Include resource links, the evidence connecting them to the paper, and a suggested category.
+    validations:
+      required: true

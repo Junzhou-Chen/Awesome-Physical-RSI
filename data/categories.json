@@ -1,0 +1,18 @@
+[
+  {"id":"surveys","group":"1. Surveys and foundations","title":"Related surveys and perspectives","description":"Surveys that place physical improvement in the wider agent, robotics, and foundation-model literature."},
+  {"id":"meta_learning","group":"1. Surveys and foundations","title":"Meta-learning and learned optimization","description":"Learning reusable adaptation rules, optimizers, and priors for later tasks."},
+  {"id":"continual_learning","group":"1. Surveys and foundations","title":"Continual learning and capability retention","description":"Retaining earlier capabilities while learning from new tasks and experience."},
+  {"id":"curricula","group":"1. Surveys and foundations","title":"Curricula, self-play, and environment design","description":"Selecting or generating learning opportunities with changing difficulty and coverage."},
+  {"id":"digital_agents","group":"1. Surveys and foundations","title":"Digital self-improvement and agent design","description":"Language-agent refinement, tool feedback, and editable improvement procedures that inform the physical setting."},
+  {"id":"foundation_policies","group":"2. Embodied starting points","title":"Generalist policies and action models","description":"Reusable robot policies, vision-language-action models, and action representations."},
+  {"id":"planning","group":"2. Embodied starting points","title":"Language-guided planning and executable skills","description":"Turning semantic instructions and reasoning into executable physical actions."},
+  {"id":"data","group":"3. Experience acquisition","title":"Robot datasets, demonstrations, and collection tools","description":"Broad experience priors, teleoperation interfaces, and reusable data-collection infrastructure."},
+  {"id":"autonomous_practice","group":"3. Experience acquisition","title":"Autonomous practice, recovery, and deployment loops","description":"Repeated physical interaction, reset and recovery, and experience acquisition during deployment."},
+  {"id":"sim_synthetic","group":"3. Experience acquisition","title":"Simulation, synthetic experience, and transfer","description":"Simulation, task generation, rendering, demonstration synthesis, and sim-to-real transfer."},
+  {"id":"feedback","group":"4. Feedback and verification","title":"Rewards, progress, failure diagnosis, and verification","description":"Constructing signals that assess actions, trajectories, success, progress, and failure."},
+  {"id":"policy_updates","group":"5. Persistent updates and process revision","title":"Policy improvement and adaptation","description":"RL fine-tuning, corrective learning, distillation, and persistent changes to deployed policies."},
+  {"id":"world_self_models","group":"5. Persistent updates and process revision","title":"World models and physical self-models","description":"Predictive models, model-based learning, embodiment identification, and adaptation after physical change."},
+  {"id":"process_design","group":"5. Persistent updates and process revision","title":"Improvement-process design and revision","description":"Editable training code, reward or task design, and decisions about how subsequent learning is organized."},
+  {"id":"benchmarks","group":"6. Resources and evaluation","title":"Benchmarks and evaluation protocols","description":"Task suites, generalization and robustness tests, and resources for measuring retained improvement."},
+  {"id":"safety","group":"7. Safety and trustworthy improvement","title":"Safety, constraints, alignment, and risk","description":"Safe exploration, recovery, constraint enforcement, reward misspecification, and physical risk."}
+]

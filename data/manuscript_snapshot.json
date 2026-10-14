@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/Junzhou-Chen/Phy_RSI_Survey",
+  "commit": "6aaac53fe369b02781faa2ad504cc356a23710c0",
+  "working_tree_dirty": false,
+  "main_file": "neurips_2026.tex",
+  "cited_count": 216,
+  "bibliography_count": 216,
+  "bib_sha256": "c2d42e6b0bdfff2a3b966ad68d2c653d61cec95bddeb787b1127f23762665ce7",
+  "active_files": [
+    {
+      "path": "neurips_2026.tex",
+      "sha256": "dcdcaf4654d4ecc7d2fe2b5daaa2eccdb7fdf51321c3b346cb9ce7d71e3404a4"
+    },
+    {
+      "path": "Content/Introduction.tex",
+      "sha256": "391247207cf6952a926376051f49ebf989b82d16733786e537024c7ed34ca52b"
+    },
+    {
+      "path": "Content/RSI_Intro.tex",
+      "sha256": "11e2b6bbc6df9c8d77687751d16c487f90d31210e7382cf83ccc26a96b185082"
+    },
+    {
+      "path": "Content/RSI_4_PAI.tex",
+      "sha256": "688a855a711e1809cccf9f519a561e2c5376dbb53b3ab582cccec679445b29bb"
+    },
+    {
+      "path": "Content/Build_Phy_RSI.tex",
+      "sha256": "54a71746e05b50283b7e0050103d470c7841be68ec46e4c64ce4ec9ffe06840d"
+    },
+    {
+      "path": "Figures/literature_tree.tex",
+      "sha256": "c9fff4d9f1ee05ad99cd45f6025014a832c92fda39bbd502a4a323c51154895a"
+    },
+    {
+      "path": "Content/Research_Phy_RSI.tex",
+      "sha256": "b355dd0881d6370a1eacf226969806573ef1668992141f792a23ba04f0c32097"
+    },
+    {
+      "path": "Content/Opportunity.tex",
+      "sha256": "8f48057b3ca7c189a385e1692beced5b5578c739fb9294cd3e1fb54bacd6c0fd"
+    },
+    {
+      "path": "Content/Future.tex",
+      "sha256": "227cef7169d2433af4031790a90ea475176c1d9209395f9f0445f52265ebf246"
+    },
+    {
+      "path": "Content/Conclusion.tex",
+      "sha256": "487b0dedec343634a72c1d746dcc72ddc76c60bf4da2d3f0a967418ff8d07bfd"
+    }
+  ]
+}
