@@ -47,5 +47,10 @@
       "path": "Content/Conclusion.tex",
       "sha256": "487b0dedec343634a72c1d746dcc72ddc76c60bf4da2d3f0a967418ff8d07bfd"
     }
-  ]
+  ],
+  "excluded_citation_keys": [
+    "chen2024advanced",
+    "chen2026fast"
+  ],
+  "catalog_cited_count": 214
 }

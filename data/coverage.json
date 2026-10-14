@@ -1,9 +1,14 @@
 {
   "updated": "2026-10-13",
   "source_commit": "6aaac53fe369b02781faa2ad504cc356a23710c0",
-  "papers": 216,
-  "manuscript_citations": 216,
-  "paper_links": 216,
+  "papers": 214,
+  "manuscript_citations": 214,
+  "source_manuscript_citations": 216,
+  "excluded_citation_keys": [
+    "chen2024advanced",
+    "chen2026fast"
+  ],
+  "paper_links": 214,
   "papers_with_resources": 178,
   "papers_with_code": 149,
   "resource_links": {
@@ -12,15 +17,15 @@
     "model": 19,
     "project": 135
   },
-  "source_reviewed_papers": 209,
+  "source_reviewed_papers": 207,
   "category_counts": {
     "surveys": 10,
     "meta_learning": 4,
     "continual_learning": 6,
     "curricula": 7,
     "digital_agents": 8,
-    "foundation_policies": 9,
-    "planning": 6,
+    "foundation_policies": 8,
+    "planning": 5,
     "data": 21,
     "autonomous_practice": 18,
     "sim_synthetic": 17,
@@ -52,8 +57,6 @@
     "tobin2017domain",
     "peng2018sim",
     "du2023vision",
-    "chen2026fast",
-    "chen2024advanced",
     "ha2020learning",
     "wachi2023safe",
     "he2026self",

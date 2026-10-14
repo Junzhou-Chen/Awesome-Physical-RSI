@@ -2026,47 +2026,6 @@
     ]
   },
   {
-    "id": "chen2026fast",
-    "category": "foundation_policies",
-    "focus": "Reducing robotic VLM and VLA latency through spatiotemporal visual token merging",
-    "resources": [],
-    "verification_notes": [],
-    "title": "Fast Enough to Act: Spatio-Temporal Visual Token Merging for Low-Latency Robotic VLMs and VLAs",
-    "year": "2026",
-    "venue_raw": "arXiv preprint arXiv:2606.29350",
-    "in_manuscript": true,
-    "manuscript_sections": [
-      "Current Evaluation Targets and Coverage Gaps"
-    ],
-    "paper_url": "https://arxiv.org/abs/2606.29350",
-    "paper_url_source": "manuscript bibliography (arXiv identifier)",
-    "verified_sources": [
-      "https://arxiv.org/abs/2606.29350"
-    ]
-  },
-  {
-    "id": "chen2024advanced",
-    "category": "planning",
-    "focus": "Using multimodal language models for autonomous-driving perception and decision making",
-    "resources": [],
-    "verification_notes": [],
-    "title": "An advanced driving agent with the multimodal large language model for autonomous vehicles",
-    "year": "2024",
-    "venue_raw": "2024 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)",
-    "in_manuscript": true,
-    "manuscript_sections": [
-      "Targets of Physical Improvement"
-    ],
-    "paper_url": "https://ieeexplore.ieee.org/document/10607147/",
-    "paper_url_source": "https://ieeexplore.ieee.org/document/10607147/",
-    "verified_sources": [
-      "https://ieeexplore.ieee.org/document/10607147/",
-      "https://junzhouchen.com/files/An_Advanced_Driving_Agent_with_the_Multimodal_Large_Language_Model_for_Autonomous_Vehicles.pdf"
-    ],
-    "venue": "IEEE MOST 2024",
-    "publication_status": "peer-reviewed"
-  },
-  {
     "id": "nasiriany2024robocasa",
     "category": "sim_synthetic",
     "focus": "Simulating diverse household manipulation tasks for generalist robot training",

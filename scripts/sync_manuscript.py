@@ -148,16 +148,24 @@ def main():
     ap.add_argument("--check", action="store_true", help="Report coverage and metadata drift without writing")
     args = ap.parse_args()
     bib, contexts, info = load_source(args.manuscript.resolve(), args.main)
+    exclusions_path = ROOT / "data/excluded_papers.json"
+    exclusions = set(json.loads(exclusions_path.read_text())) if exclusions_path.exists() else set()
+    info["excluded_citation_keys"] = sorted(exclusions & contexts.keys())
+    contexts = {key: value for key, value in contexts.items() if key not in exclusions}
+    info["catalog_cited_count"] = len(contexts)
     dest = ROOT / "data/papers.json"
     old = json.loads(dest.read_text()) if dest.exists() else []
+    excluded_present = sorted(p["id"] for p in old if p["id"] in exclusions)
+    old = [p for p in old if p["id"] not in exclusions]
     by_key = {p["id"]: p for p in old}
     if args.check:
         cited = {p["id"] for p in old if p.get("in_manuscript", True)}
         drift = [k for k in contexts if k in by_key and any(by_key[k].get(f) != plain(bib[k].get(f, "")) for f in ("title", "year"))]
-        report = {"manuscript_count": len(contexts), "catalog_count": len(cited),
+        report = {"manuscript_count": info["cited_count"], "eligible_count": len(contexts), "catalog_count": len(cited),
+                  "excluded_citations": info["excluded_citation_keys"], "excluded_present": excluded_present,
                   "missing": sorted(set(contexts)-cited), "no_longer_cited": sorted(cited-set(contexts)), "metadata_changed": drift}
         print(json.dumps(report, indent=2))
-        raise SystemExit(bool(report["missing"] or report["no_longer_cited"] or drift))
+        raise SystemExit(bool(report["missing"] or report["no_longer_cited"] or excluded_present or drift))
     result = []
     for key, b in bib.items():
         if key not in contexts:
@@ -180,7 +188,7 @@ def main():
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n")
     (ROOT / "data/manuscript_snapshot.json").write_text(json.dumps(info, indent=2)+"\n")
-    print(f"Synced {len(contexts)} active citations; bibliography left unchanged.")
+    print(f"Synced {len(contexts)} included citations; {len(info['excluded_citation_keys'])} editorial exclusions; bibliography left unchanged.")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 **From Self-Improvement to Recursive Self-Improvement in Physical AI: A Survey**
 
-[![Papers](https://img.shields.io/badge/papers-216-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-149-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
+[![Papers](https://img.shields.io/badge/papers-214-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-149-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
 
 A companion reading list on how embodied systems acquire experience, construct feedback, and retain improvements to policies, memories, predictive models, and learning procedures. The catalog follows the survey's functional taxonomy and includes its foundational and digital precedents.
 
@@ -12,7 +12,7 @@ A companion reading list on how embodied systems acquire experience, construct f
 
 ## Updates
 
-- **2026-10-13** — Initial catalog: **216 / 216** active manuscript citations, **216** paper links, and **178** papers with linked resources (**149** with code).
+- **2026-10-13** — Catalog: **214 / 216** manuscript citations indexed (**2 editorial exclusions**), **214** paper links, and **178** papers with linked resources (**149** with code).
 
 ## Contents
 
@@ -25,8 +25,8 @@ A companion reading list on how embodied systems acquire experience, construct f
     - [Curricula, self-play, and environment design (7)](#curricula-self-play-and-environment-design)
     - [Digital self-improvement and agent design (8)](#digital-self-improvement-and-agent-design)
   - [2. Embodied starting points](#2-embodied-starting-points)
-    - [Generalist policies and action models (9)](#generalist-policies-and-action-models)
-    - [Language-guided planning and executable skills (6)](#language-guided-planning-and-executable-skills)
+    - [Generalist policies and action models (8)](#generalist-policies-and-action-models)
+    - [Language-guided planning and executable skills (5)](#language-guided-planning-and-executable-skills)
   - [3. Experience acquisition](#3-experience-acquisition)
     - [Robot datasets, demonstrations, and collection tools (21)](#robot-datasets-demonstrations-and-collection-tools)
     - [Autonomous practice, recovery, and deployment loops (18)](#autonomous-practice-recovery-and-deployment-loops)
@@ -145,7 +145,6 @@ Reusable robot policies, vision-language-action models, and action representatio
 
 | Paper | Year · venue / version | Focus | Resources |
 |:---|:---|:---|:---|
-| [**Fast Enough to Act: Spatio-Temporal Visual Token Merging for Low-Latency Robotic VLMs and VLAs**](https://arxiv.org/abs/2606.29350) | 2026 · arXiv preprint | Reducing robotic VLM and VLA latency through spatiotemporal visual token merging | — |
 | [**Diffusion policy: Visuomotor policy learning via action diffusion**](https://arxiv.org/abs/2303.04137) | 2025 · IJRR | Generating visuomotor action sequences through conditional diffusion | [Code](https://github.com/real-stanford/diffusion_policy) |
 | [**Generalist robot manipulation beyond action labeled data**](https://arxiv.org/abs/2509.19958) | CoRL 2025 | Training generalist manipulation policies using data without action annotations | [Code](https://github.com/insait-institute/motovla) · [Project](https://motovla.insait.ai/) |
 | [**3d diffusion policy: Generalizable visuomotor policy learning via simple 3d representations**](https://arxiv.org/abs/2403.03954) | 2024 · arXiv preprint | Diffusion policies using compact point cloud representations for generalization | [Code](https://github.com/YanjieZe/3D-Diffusion-Policy) · [Project](https://3d-diffusion-policy.github.io/) · [Data](https://1drv.ms/u/s!Ag5QsBIFtRnTlFWqYWtS2wMMPKNX?e=dw8hsS) |
@@ -163,7 +162,6 @@ Turning semantic instructions and reasoning into executable physical actions.
 
 | Paper | Year · venue / version | Focus | Resources |
 |:---|:---|:---|:---|
-| [**An advanced driving agent with the multimodal large language model for autonomous vehicles**](https://ieeexplore.ieee.org/document/10607147/) | IEEE MOST 2024 | Using multimodal language models for autonomous-driving perception and decision making | — |
 | [**Code as policies: Language model programs for embodied control**](https://arxiv.org/abs/2209.07753) | 2023 · ICRA | Generating executable robot programs from natural-language instructions | [Code](https://github.com/google-research/google-research/tree/master/code_as_policies) · [Project](https://code-as-policies.github.io/) |
 | [**Voxposer: Composable 3d value maps for robotic manipulation with language models**](https://arxiv.org/abs/2307.05973) | CoRL 2023 | Composing three-dimensional value maps for language-guided robot manipulation | [Code](https://github.com/huangwl18/VoxPoser) · [Project](https://voxposer.github.io/) |
 | [**Do as i can, not as i say: Grounding language in robotic affordances**](https://arxiv.org/abs/2204.01691) | CoRL 2022 | Grounding language instructions in executable skills and learned robotic affordances | [Code](https://github.com/google-research/google-research/tree/master/saycan) · [Project](https://say-can.github.io/) · [Evaluation instructions](https://github.com/say-can/say-can.github.io/tree/main/data) |

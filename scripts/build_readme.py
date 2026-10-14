@@ -52,8 +52,11 @@ def validate(papers, categories, snapshot):
             if not valid_url(url):
                 errors.append(f"{key}: invalid verification source")
     cited = [p for p in papers if p.get("in_manuscript")]
-    if len(cited) != snapshot["cited_count"]:
-        errors.append(f"Snapshot/catalog coverage differs: {snapshot['cited_count']} vs {len(cited)}")
+    expected_count = snapshot.get("catalog_cited_count", snapshot["cited_count"])
+    if ids & set(snapshot.get("excluded_citation_keys", [])):
+        errors.append("Catalog contains editorially excluded citations")
+    if len(cited) != expected_count:
+        errors.append(f"Snapshot/catalog coverage differs: {expected_count} vs {len(cited)}")
     if errors:
         raise ValueError("\n".join(errors))
 
@@ -105,6 +108,8 @@ def stats(papers, categories, snapshot):
     types = Counter(r["type"] for p in papers for r in p.get("resources", []))
     return {"updated": DATE, "source_commit": snapshot["commit"], "papers": len(papers),
             "manuscript_citations": sum(p.get("in_manuscript", False) for p in papers),
+            "source_manuscript_citations": snapshot["cited_count"],
+            "excluded_citation_keys": snapshot.get("excluded_citation_keys", []),
             "paper_links": sum(bool(p.get("paper_url")) for p in papers),
             "papers_with_resources": sum(bool(p.get("resources")) for p in papers),
             "papers_with_code": sum(any(r["type"] == "code" for r in p.get("resources", [])) for p in papers),
@@ -126,7 +131,9 @@ def render(papers, categories, snapshot):
              "![Physical improvement and process revision](assets/improvement-loop.svg)", "",
              "**Physical self-improvement (SI)** retains improvements to an embodied system. **Recursive self-improvement (RSI)** uses earlier improvement outcomes to revise the process that produces later gains. The survey proposes evaluating a revised process against its saved predecessor through subsequent learning under matched conditions and resources.", "",
              "## Updates", "",
-             f"- **{DATE}** — Initial catalog: **{s['manuscript_citations']} / {snapshot['cited_count']}** active manuscript citations, **{s['paper_links']}** paper links, and **{s['papers_with_resources']}** papers with linked resources (**{s['papers_with_code']}** with code).", "",
+             f"- **{DATE}** — Catalog: **{s['manuscript_citations']} / {snapshot['cited_count']}** manuscript citations indexed"
+             + (f" (**{len(s['excluded_citation_keys'])} editorial exclusions**)" if s['excluded_citation_keys'] else "")
+             + f", **{s['paper_links']}** paper links, and **{s['papers_with_resources']}** papers with linked resources (**{s['papers_with_code']}** with code).", "",
              "## Contents", "",
              "- [How to read the catalog](#how-to-read-the-catalog)", "- [Paper catalog](#paper-catalog)"]
     groups = list(dict.fromkeys(c["group"] for c in categories))
