@@ -173,7 +173,6 @@ def render(papers, categories, snapshot):
               "## Citation", "",
               "Read the [survey PDF](paper/physical-rsi-survey.pdf). A formal citation will be added when available. Please cite the original papers for their methods and results.", "",
               "## Acknowledgments", "",
-              "Repository organization was informed by [Embedding Physics Priors in Robot Learning: A Survey](https://github.com/TUM-AVS/survey-physics-embedded-robot-learning) and [Awesome Robotics Manipulation](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation).", "",
               "Original catalog text and maintenance scripts are released under the [MIT license](LICENSE). Linked papers, code, models, and datasets retain their respective licenses.", ""]
     return "\n".join(lines), s
 
