@@ -46,4 +46,4 @@ python3 scripts/build_readme.py --check
 python3 -m unittest discover -s tests
 ```
 
-Commit the catalog changes together with the regenerated README and coverage report. Preserve source records when replacing links.
+Commit catalog changes together with the regenerated README and coverage report. Preserve source records when replacing links.
