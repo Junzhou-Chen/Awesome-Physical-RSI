@@ -2,7 +2,7 @@
 
 **From Self-Improvement to Recursive Self-Improvement in Physical AI: A Survey**
 
-[![Papers](https://img.shields.io/badge/papers-214-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-149-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/physical-rsi-survey.pdf) [![Papers](https://img.shields.io/badge/papers-214-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-149-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
 
 A companion reading list on how embodied systems acquire experience, construct feedback, and retain improvements to policies, memories, predictive models, and learning procedures. The catalog follows the survey's functional taxonomy and includes its foundational and digital precedents.
 
@@ -433,7 +433,7 @@ Corrections, official resource links, and relevant new papers are welcome throug
 
 ## Citation
 
-The survey's public paper link and formal citation will be added when available. For now, please cite the original papers for their methods and results.
+Read the [survey PDF](paper/physical-rsi-survey.pdf). A formal citation will be added when available. Please cite the original papers for their methods and results.
 
 ## Acknowledgments
 

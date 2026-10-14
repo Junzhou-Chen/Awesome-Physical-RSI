@@ -124,6 +124,7 @@ def render(papers, categories, snapshot):
     s = stats(papers, categories, snapshot)
     lines = ["# Awesome Physical RSI", "",
              "**From Self-Improvement to Recursive Self-Improvement in Physical AI: A Survey**", "",
+             "[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/physical-rsi-survey.pdf) "
              f"[![Papers](https://img.shields.io/badge/papers-{s['papers']}-2563eb)](#paper-catalog) "
              f"[![Code](https://img.shields.io/badge/papers_with_code-{s['papers_with_code']}-0d9488)](#paper-catalog) "
              f"[![Stars](https://img.shields.io/github/stars/{REPO}?style=social)](https://github.com/{REPO}/stargazers)", "",
@@ -170,7 +171,7 @@ def render(papers, categories, snapshot):
     lines += ["## Contributing", "",
               "Corrections, official resource links, and relevant new papers are welcome through issues or pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for the catalog schema and source requirements.", "",
               "## Citation", "",
-              "The survey's public paper link and formal citation will be added when available. For now, please cite the original papers for their methods and results.", "",
+              "Read the [survey PDF](paper/physical-rsi-survey.pdf). A formal citation will be added when available. Please cite the original papers for their methods and results.", "",
               "## Acknowledgments", "",
               "Repository organization was informed by [Embedding Physics Priors in Robot Learning: A Survey](https://github.com/TUM-AVS/survey-physics-embedded-robot-learning) and [Awesome Robotics Manipulation](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation).", "",
               "Original catalog text and maintenance scripts are released under the [MIT license](LICENSE). Linked papers, code, models, and datasets retain their respective licenses.", ""]
