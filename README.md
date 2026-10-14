@@ -6,7 +6,7 @@
 
 A companion reading list on how embodied systems acquire experience, construct feedback, and retain improvements to policies, memories, predictive models, and learning procedures. The catalog follows the survey's functional taxonomy and includes its foundational and digital precedents.
 
-![Physical improvement and process revision](assets/improvement-loop.svg)
+[![Figure 1: Acting in the world, physical self-improvement, and toward physical RSI](assets/figure-1.png)](assets/figure-1.png)
 
 **Physical self-improvement (SI)** retains improvements to an embodied system. **Recursive self-improvement (RSI)** uses earlier improvement outcomes to revise the process that produces later gains. The survey proposes evaluating a revised process against its saved predecessor through subsequent learning under matched conditions and resources.
 
