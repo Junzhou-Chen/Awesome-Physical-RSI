@@ -2,7 +2,7 @@
 
 **From Self-Improvement to Recursive Self-Improvement in Physical AI: A Survey**
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/physical-rsi-survey.pdf) [![Papers](https://img.shields.io/badge/papers-214-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-149-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b)](paper/physical-rsi-survey.pdf) [![Papers](https://img.shields.io/badge/papers-215-2563eb)](#paper-catalog) [![Code](https://img.shields.io/badge/papers_with_code-150-0d9488)](#paper-catalog) [![Stars](https://img.shields.io/github/stars/Junzhou-Chen/Awesome-Physical-RSI?style=social)](https://github.com/Junzhou-Chen/Awesome-Physical-RSI/stargazers)
 
 A companion reading list on how embodied systems acquire experience, construct feedback, and retain improvements to policies, memories, predictive models, and learning procedures. The catalog follows the survey's functional taxonomy and includes its foundational and digital precedents.
 
@@ -12,7 +12,7 @@ A companion reading list on how embodied systems acquire experience, construct f
 
 ## Updates
 
-- **2026-10-13** — Catalog: **214 / 214** manuscript citations indexed, **214** paper links, and **178** papers with linked resources (**149** with code).
+- **2026-10-13** — Catalog: **214 / 214** manuscript citations indexed, **215** paper links, and **179** papers with linked resources (**150** with code).
 
 ## Contents
 
@@ -30,7 +30,7 @@ A companion reading list on how embodied systems acquire experience, construct f
   - [3. Experience acquisition](#3-experience-acquisition)
     - [Robot datasets, demonstrations, and collection tools (21)](#robot-datasets-demonstrations-and-collection-tools)
     - [Autonomous practice, recovery, and deployment loops (18)](#autonomous-practice-recovery-and-deployment-loops)
-    - [Simulation, synthetic experience, and transfer (17)](#simulation-synthetic-experience-and-transfer)
+    - [Simulation, synthetic experience, and transfer (18)](#simulation-synthetic-experience-and-transfer)
   - [4. Feedback and verification](#4-feedback-and-verification)
     - [Rewards, progress, failure diagnosis, and verification (16)](#rewards-progress-failure-diagnosis-and-verification)
   - [5. Persistent updates and process revision](#5-persistent-updates-and-process-revision)
@@ -235,6 +235,7 @@ Simulation, task generation, rendering, demonstration synthesis, and sim-to-real
 
 | Paper | Year · venue / version | Focus | Resources |
 |:---|:---|:---|:---|
+| [**Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap**](https://arxiv.org/abs/2607.24079) | 2026 · arXiv preprint | Deriving closed-form effective PD damping and inertia corrections so simulator parameters match real behavior at finite simulation frequency | [Code](https://github.com/WhymustIhaveaname/R4R) |
 | [**Gs-playground: A high-throughput photorealistic simulator for vision-informed robot learning**](https://arxiv.org/abs/2604.25459) | RSS 2026 | Accelerating vision-based robot training with photorealistic Gaussian-splatting simulation | [Real2Sim pipeline](https://github.com/discoverse-dev/gs-real2sim) · [Preview release](https://github.com/discoverse-dev/gs_playground) · [Project](https://gsplayground.github.io/) |
 | [**Robotwin 2.0: A scalable data generator and benchmark with strong domain randomization for robust bimanual robotic manipulation**](https://arxiv.org/abs/2506.18088) | ICML 2026 | Generating bimanual demonstrations with strong scene and object randomization | [Code](https://github.com/RoboTwin-Platform/RoboTwin) · [Project](https://robotwin-platform.github.io/) · [Data](https://huggingface.co/datasets/TianxingChen/RoboTwin2.0/tree/main/dataset) |
 | [**Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching**](https://arxiv.org/abs/2605.09789) | RSS 2026 | Studying zero-shot transfer of reactive dexterous catching policies | [Project](https://rice-robotpi-lab.github.io/DRIScatch/) |

@@ -6967,4 +6967,28 @@
     "paper_url_source": "manuscript bibliography (arXiv identifier)",
     "verified_sources": []
   }
+,
+  {
+    "id": "sun2026effective",
+    "category": "sim_synthetic",
+    "focus": "Deriving closed-form effective PD damping and inertia corrections so simulator parameters match real behavior at finite simulation frequency",
+    "resources": [
+      {
+        "type": "code",
+        "url": "https://github.com/WhymustIhaveaname/R4R",
+        "source_url": "https://github.com/WhymustIhaveaname/R4R"
+      }
+    ],
+    "verification_notes": [],
+    "title": "Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap",
+    "year": "2026",
+    "venue_raw": "arXiv preprint arXiv:2607.24079",
+    "in_manuscript": false,
+    "paper_url": "https://arxiv.org/abs/2607.24079",
+    "paper_url_source": "https://arxiv.org/abs/2607.24079",
+    "verified_sources": [
+      "https://arxiv.org/abs/2607.24079",
+      "https://github.com/WhymustIhaveaname/R4R"
+    ]
+  }
 ]
